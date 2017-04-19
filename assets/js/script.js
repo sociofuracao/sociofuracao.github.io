@@ -115,6 +115,7 @@ function loadVideo(file, image, id_active) {
 $(document).ready(function(){
     var url = location.href;
     var id = url.substring(url.indexOf('#'));
+    console.log(id);
     if(id == '#registro' || id == '#cadastro'){
         if(id == '#registro'){
             var id = '#login';
