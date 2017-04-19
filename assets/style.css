@@ -407,3 +407,234 @@ html, body {
 #exclusivo .video-socio {
     width: 100%
 }
+
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+
+.fechar{
+    display:block;
+    background: #a91c23;
+    color: #ffffff;
+    font-size: 20px;
+    float: right;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    right: -12px;
+    top: -12px;
+    text-align: center;
+    position: absolute;
+    padding-top: -5px;
+}
+.window{
+    display:none;
+    width:550px;
+    height:400px;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: rgba(220,221,220,0.9);
+    z-index:19900;
+    padding:44px;
+    border-radius:2px;
+}
+#login .login-right p,
+#cadastro .login-right p{
+    font-size: 22px;
+    color: #231f20;
+    font-weight: normal;
+    text-indent: each-line;
+}
+
+#login .login-right .register,
+#cadastro .login-right .register{
+    font-size: 13px;
+    color: #231f20;
+    margin-top: 50px;
+}
+
+#login .login-right label,
+#cadastro .login-right label{
+    margin-top: 26px;
+    font-size: 15px;
+    color: #231f20;
+}
+
+#login .login-right input,
+#cadastro .login-right input{
+    width: 455px;
+    height: 18px;
+    background: #FFFFFF;
+    border: none;
+    margin-top: 5px;
+}
+
+#login .login-right .btn.btn-danger,
+#cadastro .login-right .btn.btn-danger{
+    float: left;
+    width: 173px;
+    height: 30px;
+    background: #d2232a;
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 15px;
+    border: none;
+    margin-top: 24px;
+}
+
+#login .login-right .btn.btn-success,
+#cadastro .login-right .btn.btn-success {
+    float: right;
+    width: 104px;
+    height: 30px;
+    background: #40ae49;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 16px;
+    border: none;
+    margin-top: 24px;
+    margin-left: 0;
+}
+.jw-controlbar,
+.jw-dock .jw-reset{display: none !important;}
+.jw-display-icon-container .jw-background-color .jw-reset{
+    background: #fdb000 !important;
+}
+
+/************ PLAYOUT *****************/
+.body-section .video-section-playout .video{
+    width:100%;
+    height: 580px;
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.body-section .search{
+    height: 265px;
+    width: 100%;
+    background: #eeede9;
+    position: relative;
+}
+
+.body-section .search .img-search{
+    float: left;
+    position: relative;
+    z-index: 2000;
+}
+.body-section .search .form-search .search-right{
+    float: right;
+}
+
+.body-section .search .search-right img{
+    float: right;
+    top: 50px;
+    position: relative;
+}
+.body-section .search .form-search{
+    float: left;
+    margin-left: 0;
+    background: #fdb000;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.body-section .search .form-search input{
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #231f20;
+    border: none;
+    background: #fedf99;
+    margin: 5px 0 0 220px;
+    padding: 5px auto 5px 10px;
+    height: 24px;
+    width: 780px;
+}
+
+.body-section .search .form-search .btn-search{
+    background: url("../img/btn_search.png");
+    width: 38px;
+    height: 38px;
+    border: none;
+    margin: 0 0 0 0;
+    float: right;
+}
+
+#description-playout .date{
+    font-family: 'Roboto', sans-serif !Important;
+    font-size: 15.56px;
+    color: #ffffff;
+    margin: 26px auto auto 56px;
+}
+
+#description-playout .content-title{
+    font-family: 'Roboto', sans-serif !Important;
+    font-size: 28px;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 16px auto auto 56px;
+}
+
+#description-playout .content-description{
+    font-family: 'Roboto', sans-serif !Important;
+    font-size: 15px;
+    color: #939598;
+    margin: 12px auto auto 56px;
+}
+
+#comments{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 20px 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-section .count-comments{
+    text-transform: uppercase;
+    color: #808285;
+    font-size: 13.87px;
+}
+
+.body-section{
+    background: #eeede9;
+}
+.body-section .comments{
+    margin-top: 36px;
+}
+
+.body-section .comments li{
+    list-style: none;
+    font-size: 17px !important;
+    color: #231f20;
+    margin-left: -40px;
+    margin-bottom: 22px;
+    border-bottom: solid 1px #a8a9aa;
+    padding-bottom: 26px;
+    padding-right: 50px;
+}
+
+.body-section .comments .user{
+    font-weight: bold;
+}
+
+.body-section .more-comments{
+    text-align: center;
+}
+
+.body-section .more-comments a{
+    color: #231f20;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -10px;
+    width: 100%;
+}

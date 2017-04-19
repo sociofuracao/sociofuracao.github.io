@@ -23,29 +23,6 @@
     <![endif]-->
   </head>
   <body>
-  <!-- modal login -->
-  <div class="window" id="login">
-    <a href="#" class="fechar"><span>x</span></a>
-    <div class="login-right">
-      <p>Conteúdo exclusivo torcedor sócio furação</p>
-      <form id="signupForm" action="" method="post">
-        <label>login</label>
-        <input type="text" name="login" id="input-login"><br>
-        <label>Senha</label>
-        <input type="password" name="password" id="input-password"><br>
-        <button type="button" class="btn btn-danger left">Esqueci minha senha</button>
-        <button type="submit" class="btn btn-success right" id="acessar">ACESSAR</button>
-      </form>
-      <div class="clearfix"></div>
-      <p class="register">
-        Ainda não faz parte dessa torcida?<br>
-        Clique aqui e cadastre-se agora mesmo.
-      </p>
-    </div>
-
-  </div>
-  <!-- mascara para cobrir o site -->
-  <div id="mascara"></div>
     <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top" id="menuSuperior">
       <div class="container">
@@ -197,120 +174,6 @@
       </div>
     </nav>
 
-
-    <section id="tvCap">
-      <div class="container">
-        <div class="col-lg-12">
-          <h1>tv cap no ar</h1>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="embed-responsive  col-lg-8">
-              <div class="box-detalhes">
-                <p>[Você está assistindo]</p>
-                <h4 id="content_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-                <p id="content_description" class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-              </div>
-              <div id="myVideo"></div>
-            </div>
-            <div class="col-lg-4 programacao">
-              <h3>Programação cap tv</h3>
-              <ul>
-                <li>
-                  <a href="#">
-                    <p class="data">28/03/2017</p>
-                    <p class="resumo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p class="data">28/03/2017</p>
-                    <p class="resumo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p class="data">28/03/2017</p>
-                    <p class="resumo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <p class="data">28/03/2017</p>
-                    <p class="resumo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> <!-- Fim tv cap -->
-
-
-    <section id="sponsor1">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <a href="#"><img src="assets/img/sponsor1.png" class="png" ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="recentes">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3><span>Vídeos + recentes</span></h3>
-          </div>
-          <div class="col-lg-4">
-            <a href="#"><img src="assets/img/recente1.png"></a>
-          </div>
-          <div class="col-lg-4">
-            <a href="#"><img src="assets/img/recente2.png"></a>
-          </div>
-          <div class="col-lg-4">
-            <a href="#"><img src="assets/img/recente3.png"></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="playlists">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3><span>Playlists</span></h3>
-          </div>
-          <div class="col-lg-4">
-            <a href="#"><img src="assets/img/play1.png"></a>
-          </div>
-          <div class="col-lg-4">
-            <a href="#"><img src="assets/img/play2.png"></a>
-          </div>
-          <div class="col-lg-4">
-            <a href="#"><img src="assets/img/play3.png"></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="sponsor2">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <a href="#"><img src="assets/img/sponsor2.png" class="png" ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
     <section id="exclusivo">
       <div class="container">
         <div class="row">
@@ -325,14 +188,70 @@
         </div>
       </div>
     </section>
+    <div class="container">
+      <div class="body-section">
+        <section>
+          <div class="video-section-playout">
+            <div class="video">
+              <div class="player">
+                <div id="myVideo"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="description">
+        <section id="description-playout">
+          <p class="date" id="content_date"></p>
+          <h3 class="content-title" id="content_title"></h3>
+          <p class="content-description" id="content_description"></p>
+        </section>
+      </div>
+      <div class="clearfix"></div>
+      <div class="body-section" id="comments">
+        <section>
+          <p class="count-comments">comentários  •  246</p>
+          <ul class="comments">
+            <li>
+              <strong class="user">Fulano de tal:</strong>
+              anshnajsnaksn ajsnaksnaks Um eossunt, eos erchillab inisquodis resto et eaquaspelit moluptate rem hic torpor<br>
+              aut fuga. Offic te maxim descipsum faccati doleniet omniendit que ium raecture voluptatur?
+            </li>
+            <li>
+              <strong class="user">Fulano de tal:</strong>
+              anshnajsnaksn ajsnaksnaks Um eossunt, eos erchillab inisquodis resto et eaquaspelit moluptate rem hic torpor<br>
+              aut fuga. Offic te maxim descipsum faccati doleniet omniendit que ium raecture voluptatur?
+            </li>
+            <li>
+              <strong class="user">Fulano de tal:</strong>
+              anshnajsnaksn ajsnaksnaks Um eossunt, eos erchillab inisquodis resto et eaquaspelit moluptate rem hic torpor<br>
+              aut fuga. Offic te maxim descipsum faccati doleniet omniendit que ium raecture voluptatur?
+            </li>
+            <li>
+              <strong class="user">Fulano de tal:</strong>
+              anshnajsnaksn ajsnaksnaks Um eossunt, eos erchillab inisquodis resto et eaquaspelit moluptate rem hic torpor<br>
+              aut fuga. Offic te maxim descipsum faccati doleniet omniendit que ium raecture voluptatur?
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+          <div class="more-comments">
+            <a href="#" class="more">MOSTRAR MAIS</a>
+          </div>
+        </section>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="https://everstream1.websiteseguro.com/template_jwp7/teste/css/MySkinEverstream.css"> </link>
-  <script type="text/javascript" src="https://everstream1.websiteseguro.com/template_jwp7/teste/js/jwplayer.js"> </script>
-  <script type="text/javascript">jwplayer.key = "3q3t8iIybSxKCGGz24tDJPg0q1eMN2UwljLScelSCPY=";</script>
-  <script src="assets/js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://everstream1.websiteseguro.com/template_jwp7/teste/css/MySkinEverstream.css"> </link>
+    <script type="text/javascript" src="https://everstream1.websiteseguro.com/template_jwp7/teste/js/jwplayer.js"> </script>
+    <script type="text/javascript">jwplayer.key = "3q3t8iIybSxKCGGz24tDJPg0q1eMN2UwljLScelSCPY=";</script>
+    <script src="assets/js/socio.js" type="text/javascript"></script>
   </body>
 </html>

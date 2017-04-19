@@ -110,3 +110,78 @@ function loadVideo(file, image, id_active) {
     playerInstance.play();
     $('html, body').animate({scrollTop:$("#tvCap").offset().top}, 'slow');
 }
+
+
+$(document).ready(function(){
+    var url = location.href;
+    var id = url.substring(url.indexOf('#'));
+    if(id == '#registro' || id == '#cadastro'){
+        if(id == '#registro'){
+            var id = '#login';
+        }
+
+        var alturaTela = $(document).height();
+        var larguraTela = $(window).width();
+
+        //colocando o fundo preto
+        $('#mascara').css({'width':larguraTela,'height':alturaTela});
+        $('#mascara').fadeIn(1000);
+        $('#mascara').fadeTo("slow",0.8);
+
+        var left = ($(window).width() /2) - ( $(id).width() / 2 );
+        var top = ($(window).height() / 2) - ( $(id).height() / 2 );
+
+        $(id).css({'top':top,'left':left});
+        $(id).show();
+    };
+
+    $("#mascara").click( function(){
+        $(this).hide();
+        $(".window").hide();
+    });
+
+    $('.fechar').click(function(ev){
+        ev.preventDefault();
+        $("#mascara").hide();
+        $(".window").hide();
+    });
+    /**** Funcção para acessar o sócio rei ****/
+    $('#signupForm').submit(function(event) {
+        event.preventDefault();
+
+        var login    = $('#input-login');
+        var password = $('#input-password');
+
+        if(login.val() == ''){
+            alert('Favor preenhcer o campo Login');
+            login.focus();
+            return false;
+        }
+
+        if(password.val() == ''){
+            alert('Favor preenhcer o campo Senha');
+            password.focus();
+            return false;
+        }
+
+        $.ajax({
+            url: 'https://publicador.everstreamplay.com/ws/user/get/',
+            data: {email: login.val(), password: password.val(), callback: 'loga'},
+            async: false,
+            jsonpCallback: 'loga',
+            dataType: 'jsonp',
+        });
+    });
+});
+
+
+function loga(data){
+    if(data.error) {
+        alert(data.error)
+    }else if(parseInt(data.user.email.length) > 0 && parseInt(data.user.id.length) > 0){
+        window.sessionStorage.setItem('user', JSON.stringify(data));
+        window.location.href = "socio.html";
+    }else{
+        alert('Ocorreu um erro ao tentar recuperar seu acesso!')
+    }
+}
