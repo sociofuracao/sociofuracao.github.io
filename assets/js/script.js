@@ -108,5 +108,5 @@ function loadVideo(file, image, id_active) {
     })
 
     playerInstance.play();
-    $('html, body').animate({scrollTop:$("#myVideo").offset().top}, 'slow');
+    $('html, body').animate({scrollTop:$("#tvCap").offset().top}, 'slow');
 }
