@@ -1,1 +1,399 @@
-html,body{font-family:'Roboto',sans-serif}#menuSuperior{background-color:#4e4d4d;min-height:40px;border-bottom:#000 solid 5px;margin:0}#menuSuperior .navbar-nav li:hover a{background-color:#4e4d4d}#menuSuperior .navbar-nav li a{padding-top:10px;padding-bottom:10px;font-size:12px;color:#fff;text-transform:uppercase;background-color:#4e4d4d;font-weight:600}#menuSuperior .navbar-right{margin-top:1px;margin-bottom:1px}#menuSuperior .navbar-right .form-control{height:36px;background-color:#dcdbdb}#menuSuperior .navbar-right .btn{padding:0 12px;height:36px;border-left:none;background-color:#dcdbdb}#menuSuperior .navbar-right li a{padding-top:5px;padding-bottom:5px}#menuSuperior .navbar-right li a i{color:#000;font-size:26px}#areaDoSocio{background-color:#262626;padding:5px 0 50px 0}#areaDoSocio #logo{margin-top:20px}#areaDoSocio #patrocinio{margin-top:65px;padding:0}#areaDoSocio #patrocinio li{list-style:none;display:-webkit-inline-box;margin-right:30px}#areaDoSocio #idiomas{padding:0;margin:0;float:right}#areaDoSocio #idiomas li{display:-webkit-inline-box}#areaDoSocio #idiomas li a{margin-left:2px}#areaDoSocio #idiomas li a img{width:30px;height:20px;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:grayscale(100%)}#areaDoSocio #idiomas li a img:hover{-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none}#areaDoSocio .box-socio{margin-top:20px;padding:10px 20px 10px 10px;display:block;background:url(img/bgBoxAcesso.png) no-repeat;background-size:100% 100%}#areaDoSocio .box-socio h4{color:#ffcd00;margin:0 0 15px 0;text-transform:uppercase;font-size:16px;font-weight:600}#areaDoSocio .box-socio h4:before{width:3px;height:20px;position:relative;margin-right:5px;top:3px;background-color:red;content:'';display:inline-block}#areaDoSocio .box-socio p{color:#fff;text-transform:uppercase;font-size:12px}#areaDoSocio .box-socio p.area:before{width:1px;height:40px;bottom:15px;position:relative;right:15px;background-color:#4e4d4d;content:'';display:inline-table}#areaDoSocio .box-socio p .fa-star{color:#ffcd00;margin-right:3px}#areaDoSocio .box-socio p .fa-user{color:#4e4d4d;font-size:14px;margin-right:3px}#areaDoSocio .box-socio form label{color:#fff;font-size:12px}#areaDoSocio .box-socio form .form-control{height:20px;width:115px;margin-right:3px;border-radius:0;-o-border-radius:0;-ms-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;background-color:#000}#areaDoSocio .box-socio form .form-control:focus{outline:#c5110d;border-color:#c5110d}#areaDoSocio .box-socio form button{padding:0 12px;height:20px;margin-bottom:5px;background-color:#c5110d;border-color:#c5110d;color:#fff;outline:#c5110d;border-radius:0;-o-border-radius:0;-ms-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}#menuPrincipal{background-color:#262626;margin:0;padding:0;border:none}#menuPrincipal .navbar-nav li a{color:#fff;font-weight:600;text-transform:uppercase;font-size:22px}#menuPrincipal .navbar-nav li.open a{background-color:#262626;color:#fff;font-weight:600;text-transform:uppercase;font-size:22px}#menuPrincipal .navbar-nav .dropdown-menu{background-color:#262626}#menuPrincipal .navbar-nav .dropdown-menu li:hover a{background-color:#262626}#tvCap{background-color:#000}#tvCap h1{text-transform:uppercase;color:#fff;margin:5px 0;font-weight:600}#tvCap .embed-responsive{height:435px}#tvCap .embed-responsive:hover .box-detalhes{display:none}#tvCap .embed-responsive iframe{height:435px}#tvCap .embed-responsive .box-detalhes{height:435px;width:210px;position:absolute;left:15px;z-index:10;background-color:rgba(41,40,35,0.85);padding:20px 10px}#tvCap .embed-responsive .box-detalhes p{color:#fff}#tvCap .embed-responsive .box-detalhes p.descricao{font-size:12px}#tvCap .embed-responsive .box-detalhes h4{color:#fff;text-transform:uppercase;font-size:24px}#tvCap .programacao{padding:0;background-color:#262626;height:435px}#tvCap .programacao h3{margin:0;padding:10px 10px;text-transform:uppercase;font-size:20px;color:#fff;background-color:#c5110d}#tvCap .programacao ul{margin:0;padding:0}#tvCap .programacao ul li{list-style:none;padding:15px 10px}#tvCap .programacao ul li a{text-decoration:none}#tvCap .programacao ul li a:hover{text-decoration:none}#tvCap .programacao ul li a p.data{color:#b2b1b1;margin-top:0;margin-bottom:0}#tvCap .programacao ul li a p.resumo{margin-top:0;margin-bottom:0;color:#fff}#sponsor1{background-color:#000;padding:30px 0}#sponsor1 img{width:100%}#recentes{background-color:#000;padding:0 0 30px 0}#recentes h3{color:#fff;margin:0}#recentes h3 span{background-color:#c5110d;padding:10px 15px;margin:0;display:table;text-transform:uppercase;font-weight:600}#recentes img{width:100%}#playlists{background-color:#000;padding:0 0 30px 0}#playlists h3{color:#fff;margin:0}#playlists h3 span{background-color:#c5110d;padding:10px 15px;margin:0;display:table;text-transform:uppercase;font-weight:600}#playlists img{width:100%}#sponsor2{background-color:#000;padding:30px 0}#sponsor2 img{width:100%}#exclusivo{background-color:#000;padding:30px 0 50px 0}#exclusivo h3{color:#fff;text-align:center;text-transform:uppercase;font-size:40px;margin:0 0 10px 0}#exclusivo .video-socio{width:100%}
+html, body {
+    font-family: 'Roboto', sans-serif
+}
+
+#menuSuperior {
+    background-color: #4e4d4d;
+    min-height: 40px;
+    border-bottom: #000 solid 5px;
+    margin: 0
+}
+
+#menuSuperior .navbar-nav li:hover a {
+    background-color: #4e4d4d
+}
+
+#menuSuperior .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #4e4d4d;
+    font-weight: 600
+}
+
+#menuSuperior .navbar-right {
+    margin-top: 1px;
+    margin-bottom: 1px
+}
+
+#menuSuperior .navbar-right .form-control {
+    height: 36px;
+    background-color: #dcdbdb
+}
+
+#menuSuperior .navbar-right .btn {
+    padding: 0 12px;
+    height: 36px;
+    border-left: none;
+    background-color: #dcdbdb
+}
+
+#menuSuperior .navbar-right li a {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+#menuSuperior .navbar-right li a i {
+    color: #000;
+    font-size: 26px
+}
+
+#areaDoSocio {
+    background-color: #262626;
+    padding: 5px 0 50px 0
+}
+
+#areaDoSocio #logo {
+    margin-top: 20px
+}
+
+#areaDoSocio #patrocinio {
+    margin-top: 65px;
+    padding: 0
+}
+
+#areaDoSocio #patrocinio li {
+    list-style: none;
+    display: -webkit-inline-box;
+    margin-right: 30px
+}
+
+#areaDoSocio #idiomas {
+    padding: 0;
+    margin: 0;
+    float: right
+}
+
+#areaDoSocio #idiomas li {
+    display: -webkit-inline-box
+}
+
+#areaDoSocio #idiomas li a {
+    margin-left: 2px
+}
+
+#areaDoSocio #idiomas li a img {
+    width: 30px;
+    height: 20px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+#areaDoSocio #idiomas li a img:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none
+}
+
+#areaDoSocio .box-socio {
+    margin-top: 20px;
+    padding: 10px 20px 10px 10px;
+    display: block;
+    background: url(img/bgBoxAcesso.png) no-repeat;
+    background-size: 100% 100%
+}
+
+#areaDoSocio .box-socio h4 {
+    color: #ffcd00;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600
+}
+
+#areaDoSocio .box-socio h4:before {
+    width: 3px;
+    height: 20px;
+    position: relative;
+    margin-right: 5px;
+    top: 3px;
+    background-color: red;
+    content: '';
+    display: inline-block
+}
+
+#areaDoSocio .box-socio p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+#areaDoSocio .box-socio p.area:before {
+    width: 1px;
+    height: 40px;
+    bottom: 15px;
+    position: relative;
+    right: 15px;
+    background-color: #4e4d4d;
+    content: '';
+    display: inline-table
+}
+
+#areaDoSocio .box-socio p .fa-star {
+    color: #ffcd00;
+    margin-right: 3px
+}
+
+#areaDoSocio .box-socio p .fa-user {
+    color: #4e4d4d;
+    font-size: 14px;
+    margin-right: 3px
+}
+
+#areaDoSocio .box-socio form label {
+    color: #fff;
+    font-size: 12px
+}
+
+#areaDoSocio .box-socio form .form-control {
+    height: 20px;
+    width: 115px;
+    margin-right: 3px;
+    border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: #000
+}
+
+#areaDoSocio .box-socio form .form-control:focus {
+    outline: #c5110d;
+    border-color: #c5110d
+}
+
+#areaDoSocio .box-socio form button {
+    padding: 0 12px;
+    height: 20px;
+    margin-bottom: 5px;
+    background-color: #c5110d;
+    border-color: #c5110d;
+    color: #fff;
+    outline: #c5110d;
+    border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0
+}
+
+#menuPrincipal {
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+#menuPrincipal .navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px
+}
+
+#menuPrincipal .navbar-nav li.open a {
+    background-color: #262626;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px
+}
+
+#menuPrincipal .navbar-nav .dropdown-menu {
+    background-color: #262626
+}
+
+#menuPrincipal .navbar-nav .dropdown-menu li:hover a {
+    background-color: #262626
+}
+
+#tvCap {
+    background-color: #000
+}
+
+#tvCap h1 {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 5px 0;
+    font-weight: 600
+}
+
+#tvCap .embed-responsive {
+    height: 435px
+}
+
+#tvCap .embed-responsive:hover .box-detalhes {
+    display: none
+}
+
+#tvCap .embed-responsive iframe {
+    height: 435px
+}
+
+#tvCap .embed-responsive .box-detalhes {
+    height: 435px;
+    width: 210px;
+    position: absolute;
+    left: 15px;
+    z-index: 10;
+    background-color: rgba(41, 40, 35, 0.85);
+    padding: 20px 10px
+}
+
+#tvCap .embed-responsive .box-detalhes p {
+    color: #fff
+}
+
+#tvCap .embed-responsive .box-detalhes p.descricao {
+    font-size: 12px
+}
+
+#tvCap .embed-responsive .box-detalhes h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px
+}
+
+#tvCap .programacao {
+    padding: 0;
+    background-color: #262626;
+    height: 435px;
+    overflow: auto;
+}
+
+#tvCap .programacao h3 {
+    margin: 0;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    background-color: #c5110d
+}
+
+#tvCap .programacao ul {
+    margin: 0;
+    padding: 0
+}
+
+#tvCap .programacao ul li {
+    list-style: none;
+    padding: 15px 10px
+}
+
+#tvCap .programacao ul li a {
+    text-decoration: none
+}
+
+#tvCap .programacao ul li a:hover {
+    text-decoration: none
+}
+
+#tvCap .programacao ul li a p.data {
+    color: #b2b1b1;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#tvCap .programacao ul li a p.resumo {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff
+}
+
+#sponsor1 {
+    background-color: #000;
+    padding: 30px 0
+}
+
+#sponsor1 img {
+    width: 100%
+}
+
+#recentes {
+    background-color: #000;
+    padding: 0 0 30px 0
+}
+
+#recentes h3 {
+    color: #fff;
+    margin: 0
+}
+
+#recentes h3 span {
+    background-color: #c5110d;
+    padding: 10px 15px;
+    margin: 0;
+    display: table;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+#recentes img {
+    width: 100%
+}
+
+#playlists {
+    background-color: #000;
+    padding: 0 0 30px 0
+}
+
+#playlists h3 {
+    color: #fff;
+    margin: 0
+}
+
+#playlists h3 span {
+    background-color: #c5110d;
+    padding: 10px 15px;
+    margin: 0;
+    display: table;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+#playlists img {
+    width: 100%
+}
+
+#sponsor2 {
+    background-color: #000;
+    padding: 30px 0
+}
+
+#sponsor2 img {
+    width: 100%
+}
+
+#exclusivo {
+    background-color: #000;
+    padding: 30px 0 50px 0
+}
+
+#exclusivo h3 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0 0 10px 0
+}
+
+#exclusivo .video-socio {
+    width: 100%
+}
