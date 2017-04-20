@@ -581,14 +581,14 @@ html, body {
     font-size: 28px;
     font-weight: normal;
     color: #ffffff;
-    margin: 16px auto auto 56px;
+    margin: 32px auto auto 0;
 }
 
 #description-playout .content-description{
     font-family: 'Roboto', sans-serif !Important;
     font-size: 15px;
     color: #939598;
-    margin: 12px auto auto 56px;
+    margin: 12px auto auto 0;
 }
 
 #comments{

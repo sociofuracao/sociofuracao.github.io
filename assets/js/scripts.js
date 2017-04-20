@@ -111,30 +111,32 @@ function loadVideo(file, image, id_active) {
     $('html, body').animate({scrollTop:$("#tvCap").offset().top}, 'slow');
 }
 
+function open_login() {
+    var alturaTela = $(document).height();
+    var larguraTela = $(window).width();
+
+    //colocando o fundo preto
+    $('#mascara').css({'width':larguraTela,'height':alturaTela});
+    $('#mascara').fadeIn(1000);
+    $('#mascara').fadeTo("slow",0.8);
+
+    var left = ($(window).width() /2) - ( $('#login').width() / 2 );
+    var top = ($(window).height() / 2) - ( $('#login').height() / 2 );
+
+    $('html, body').animate({scrollTop: 0}, 'slow');
+
+    $('#login').css({'top':top,'left':left});
+    $('#login').show();
+}
 
 $(document).ready(function(){
     var url = location.href;
     var id = url.substring(url.indexOf('#'));
-    console.log(id);
+
     if(id == '#registro' || id == '#cadastro'){
-        if(id == '#registro'){
-            var id = '#login';
-        }
-
-        var alturaTela = $(document).height();
-        var larguraTela = $(window).width();
-
-        //colocando o fundo preto
-        $('#mascara').css({'width':larguraTela,'height':alturaTela});
-        $('#mascara').fadeIn(1000);
-        $('#mascara').fadeTo("slow",0.8);
-
-        var left = ($(window).width() /2) - ( $(id).width() / 2 );
-        var top = ($(window).height() / 2) - ( $(id).height() / 2 );
-
-        $(id).css({'top':top,'left':left});
-        $(id).show();
+        open_login();
     };
+
 
     $("#mascara").click( function(){
         $(this).hide();
